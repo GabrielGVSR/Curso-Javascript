@@ -1,0 +1,13 @@
+function aprovadoOuReprovado (a, b, c) {
+    let media = (a + b + c) / 3;
+    
+    if(media < 5) {
+      return "Reprovado";
+    } else if(media <7 ) {
+      return "Prova final";
+    } 
+      else {
+      return "Aprovado";
+    }
+  }
+  aprovadoOuReprovado(7, 7, 5);

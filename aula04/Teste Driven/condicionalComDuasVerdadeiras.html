@@ -1,0 +1,13 @@
+function aprovadoOuReprovado (a, b, c, faltas) {
+    let media = (a + b + c) / 3;
+
+    let aprovadoMedia = (media >= 7);
+    let aprovadoPresenca = (faltas < 10);
+    
+    if(aprovadoMedia && aprovadoPresenca) {
+        return "Aprovado"; }
+    else {
+        return "Reprovado"; }
+  }
+
+  aprovadoOuReprovado(7, 7, 5, 7);
